@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+}
+
+body {
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#back {
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(3, 0, 0, 0.7);
+    margin-top: 0.6em;
+    text-align: center;
+    box-shadow: 0.1em 0.1em aqua;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    
+    
+}
+.navi{
+    margin: 1em;
+border-radius: 0.3em;
+    color: white;
+    background-color: black;
+    border: 0.05em solid aqua;
+}
+.navi:hover{
+    color: aquamarine;
+}
+.na{
+    font-size: 1.25em;
+}
+.na:hover{
+    color: aqua;
+}
+#name{
+    padding-top: 0.5em;
+}
+#head {
+    
+    margin-right: 0.5em;
+    color: aqua;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 0.1em 0.1em rgb(0, 2, 3);
+}
+
+
+
+/* next */
+
+#start{
+    background-color: rgb(6, 6, 6,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+#entr{
+    padding-top:0.5em ;
+    font-size: 3em;
+    text-shadow: 0.05em 0.05em  black;
+}
+#quote{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    font-size: 1.35em;
+    background-color: rgb(6, 4, 4,0.7);
+    color: #d3e5f5;
+    box-shadow: 0.2em 0.2em 0.3em aqua;
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    list-style: none;
+    width: 20vw;
+}
+.imp{
+    font-size: 1.25em;
+    background-color: rgb(2, 2, 2,0.7);
+    color: aqua;
+    box-shadow: 0.15em 0.15em 0.07em  white;
+    margin-top: 1em;
+    
+
+}
+.import{
+    font-size: 1.25em;
+    color: aqua;
+    margin-top: 1em;
+    
+}
+.imp:hover{
+    color: rgb(123, 123, 235);
+}
+
+#infohead{
+    padding-left:3.5em ;
+    font-size: 3em;
+    text-shadow: 0.05em 0.05em  black;
+}
+#note{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#info{
+    margin-top: 2em;
+    background-color: rgba(82, 8, 8, 0.3);
+
+}
+#info1{
+    padding-bottom: 1.5em;
+}
+#imag{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0.25em 0.25em 0.15em aqua;
+}
+#pool{
+    height: 40vh;
+}
+#infor{
+    background-color: rgb(7, 7, 8,0.4);
+    padding-top: 1em;
+    margin-left: 1em;
+    padding-left: 1em;
+    margin-right: 2em;
+    padding-bottom:0.6em ;
+    font-size:1.25em ;
+    width: 50vw;
+    box-shadow: 0.25em 0.25em 0.08em aqua;
+}
+

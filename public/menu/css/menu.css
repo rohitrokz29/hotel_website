@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    margin: 0;
+    font-size: 22px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#menu {
+    font-size: 2.3em;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0.05em 0.05em 0.02em aqua;
+
+}
+
+.food {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.imag {
+    width: 27vw;
+    height: 40vh;
+}
+
+.imag:hover {
+    box-shadow: 0.08em 0.08em 0.2em black;
+}
+
+.itt {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.item:hover{
+    text-shadow: 00.08em 0.08em 0.1em aquamarine;
+}
+
+.info {
+    font-weight: 50;
+    color: rgb(86, 93, 99);
+}
+
+.price {
+    font-weight: 700;
+   color: rgb(187, 3, 3);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.price:hover{
+    text-shadow: 0.06em 0.06em 0.03em black; 
+}

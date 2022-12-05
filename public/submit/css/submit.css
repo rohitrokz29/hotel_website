@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 187, 195);
+    text-decoration: none;
+    color: black;
+
+}
+
+body{
+    display: block;
+    
+}
+#sub{
+    margin-top: 17%;
+}
+
+#mess{
+    align-content: center center;
+    text-align: center;
+}
+
+#message{
+    font-size: 50px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: rgb(231, 93, 116) ;
+}
+
+.home{
+    margin-top: 5%;
+ align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+#home {
+text-decoration: none;
+border: 2px solid black;
+border: 2px solid red;
+}
